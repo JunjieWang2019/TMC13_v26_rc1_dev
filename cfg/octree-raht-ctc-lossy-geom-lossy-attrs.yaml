@@ -114,6 +114,9 @@ categories:
      # attribute coding -- colour
      -
        - !conditional '${has_colour}'
+       -
+         - !conditional '"${group}" eq "cat3-fused"'
+         - rahtEnableIntraPredCodeLayer: 0
        - qp:
            r01: 51
            r02: 46
