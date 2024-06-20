@@ -85,7 +85,8 @@ categories:
        - rahtEnableIntraPredCodeLayer: 0
      -
        - !conditional '"${group}" =~ m{^cat2}'
-       - rahtEnableIntraPredCodeLayer: 0       
+       - rahtEnableIntraPredCodeLayer: 0      
+       - lastComponentPredictionEnabled: 0 
      ##
      # attribute coding -- reflectance
      -
