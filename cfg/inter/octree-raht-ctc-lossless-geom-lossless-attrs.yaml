@@ -89,6 +89,7 @@ categories:
      -
        - !conditional '"${group}" =~ m{^cat2}'
        - rahtEnableIntraPredCodeLayer: 0
+       - lastComponentPredictionEnabled: 0
      -
        - !conditional '"${group}" eq "cat3-frame"'
        - rahtInterPredictionDepthMinus1: 5
